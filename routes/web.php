@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/feedback', [FeedbackController::class, 'showFeedbackForm']);
+Route::post('/feedback', [FeedbackController::class, 'showFeedbackForm'])->name('feedback.submit');

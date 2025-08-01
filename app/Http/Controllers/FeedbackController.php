@@ -6,9 +6,11 @@ use Illuminate\Http\Request;
 
 class FeedbackController extends Controller
 {
-    public function showFeedbackForm()
+    public function showFeedbackForm(Request $request)
     {
-        return view('feedback');
+        // return view('feedback');
+        return $request->all();
+
     }
 
     // public function submitFeedback(Request $request)
