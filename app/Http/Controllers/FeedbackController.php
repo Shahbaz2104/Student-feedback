@@ -37,5 +37,10 @@ class FeedbackController extends Controller
     return view('welcome')->with('success', 'Feedback submitted successfully!');
 }
 
+public function listFeedback()
+{
+    $feedbacks = Feedback::all();
+    return view('feedbacklist', compact('feedbacks'));  
     
+}
 }
