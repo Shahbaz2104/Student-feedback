@@ -35,6 +35,13 @@
 
 <hr class="bg-danger border-3 opacity-100">
 
+
+<!-- resources/views/welcome.blade.php -->
+<div class="text-center mt-5">
+    <a href="{{ route('feedback.create') }}" class="btn btn-lg btn-primary">Give Feedback</a>
+    <a href="{{ route('feedback.index') }}" class="btn btn-lg btn-secondary">View Feedback</a>
+</div>
+
 <style>
 
 body {

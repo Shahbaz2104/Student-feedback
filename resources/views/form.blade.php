@@ -7,7 +7,7 @@
 @section('content')
 <div class="container mt-5 p-5 neumorphic-form">
     <h2 class="mb-4 text-center text-danger">Student Feedback Form</h2>
-    <form action="/feedback" method="POST">
+    <form action="{{ route('feedback.store') }}" method="POST">
         @csrf
         
         <!-- Name -->

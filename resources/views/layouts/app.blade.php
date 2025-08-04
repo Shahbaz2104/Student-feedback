@@ -17,7 +17,7 @@
           <a class="nav-link text-white" href="#">Features</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="/feedback">Feedback</a>
+          <a class="nav-link text-white" href="/form">Feedback</a>
         </li>
       </ul>
     </div>
